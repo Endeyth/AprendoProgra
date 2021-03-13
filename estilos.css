@@ -1,0 +1,398 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+/* Cuerpo y Estilo LOGIN*/
+
+.body1{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.body1 .header1 .h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box input[type = "text"], .box input[type= "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #b70e21;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+
+}
+
+.box input[type = "text"]:focus, .box input[type= "password"]:focus {
+
+    width: 280px;
+    border-color: #ff6348;
+    
+}
+
+.box .boton{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #ff6348;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.box .boton:hover{
+    background: #ff6348;
+
+}
+
+
+.box .boton a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+
+.boton li{
+    list-style: none;
+}
+
+/*index Estilo*/
+
+h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: #2f3542;
+
+}
+
+.agrupar{
+    width: 80%;
+    max-width: 960px;
+    border: 1px solid black;
+    margin: 15px auto;
+    background-color: white;
+
+}
+
+.cabecera{
+    background-color: #2d3436;
+    border: 1px solid #999999;
+    padding: 20px;
+    text-align: left;
+}
+
+.agrupar .cabecera h1{
+    color: #ffffff;
+}
+
+.menu{
+    background-color: #ccc;
+    padding: 5px 15px;
+    text-align: left;
+
+}
+
+.menu li {
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+}
+
+.menu .boton a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+.seccion{
+    width: 70%;
+    margin: 40px;
+    width: 60%;
+    float: left;
+    
+}
+
+.seccion a{
+    text-decoration: none;
+    color: #b70e21;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+article {
+    background-color: #ccc;
+    border: 1px solid #999;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+article footer {
+    text-align: right;
+    margin-top: 20px;
+}
+
+time {
+    color: #999;
+}
+
+.columna {
+    width: 30%;
+    float: left;
+    margin: 40px 0px;
+    
+}
+
+.columna blockquote {
+    border: 1px solid #999;
+    padding: 40px;
+    background-color: #ccc;
+    margin-bottom: 20px;
+}
+
+.pie{
+    clear: both;
+    padding: 20px;
+    background-color: #2d3436;
+    color: #ffffff;
+}
+
+img {
+    width: 120px;
+    display: block;
+    margin: 20px auto;
+
+}
+
+.seccion1{
+    width: 70%;
+    margin: 40px;
+    width: 60%;
+    float: left;
+}
+
+.grid {
+    display: grid;
+    gap: 1em;
+
+}
+.opciones{
+    background: #fffbb9;
+    padding: 1em;
+    border: 1px solid #999;
+}
+.opciones:hover {
+    color: #2d3436;
+    border: 1px solid #f1c4;        
+}
+
+.grid .cont-enlace{
+    box-shadow: 0 px 0px 2px 1px white;
+}
+
+/* estilo para las opciones */
+
+.grid .cont-enlace .opciones{
+    display: flex;
+    justify-content: space-between left;
+    background-color: #ccc;
+    color: black;
+    padding: 13px 15px;
+    font-size: 22px;
+    cursor: pointer;
+    user-select: none;
+    
+}
+
+.grid .cont-enlace .opciones .icono{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    width: 26px;
+    border-radius: 5px;
+}
+
+/* estilo para los enlaces */
+
+.grid .cont-enlace .enlace a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(0,0,0,.8);
+    background-color: white;
+}
+
+.grid .cont-enlace .enlace a:hover{
+    background-color: #999;
+    color: black;
+}
+
+.content{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.logo{
+    text-align: center;
+    font-size: 3em;
+}
+
+.contact-form{
+    background-color: #ccc;
+}
+
+.contact-form p{
+    margin: 1em;
+}
+
+.contact-info{
+    background-color: #999;
+}
+
+.contact-info li{
+    margin: 1em;
+    list-style: none;
+}
+
+.contact-info p{
+    margin: 1em;
+}
+
+.contact-wrapper{
+    box-shadow: 0 0 20 0 rgba(0, 0, 0, 0.3);
+    
+}
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+.contact-form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form .block{
+    grid-column:  1 / 3;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus{
+    background-color: #d63031;
+    color: #fff;
+    transition: background-color 1s ease-out;
+}
+
+.contact-form form button{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background-color: #b70e21;
+    border-bottom: 1px solid #d63031;
+    outline: none;
+    text-transform: uppercase;
+    padding: 1em;
+
+}
+
+.contact-form form input{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background-color: #dcdde1;
+    border-bottom: 1px solid #d63031;
+    outline: none;
+}
+
+.contact-form form textarea{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background-color: #dcdde1;
+    border-bottom: 1px solid #d63031;
+    outline: none;
+}
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p{
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+.contact-info ul{
+    padding: 0;
+}
+
+@media (min-width: 700px) {
+    body {
+        padding: 0 4rem;
+    }
+
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        padding: 1em;
+        text-align: left;
+    }
+}
